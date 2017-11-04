@@ -17,11 +17,9 @@ import org.xutils.BuildConfig;
  */
 
 public class LoginActivity extends Activity {
-//    @Override
-//    protected void onCreate(@Nullable Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.login_activity);
-//        ViewUtils.inject(this);
-//        x.Ext.setDebug(BuildConfig.DEBUG); // 是否输出debug日志, 开启debug会影响性能.
- //   }
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.login_activity);
+    }
 }

@@ -41,7 +41,7 @@ public class MsgActivity extends Activity {
                     public void run() {
                         super.run();
                         try{
-                            socket = new Socket("192.168.31.122", 8090);
+                            socket = new Socket("192.168.31.57", 8090);
                         }catch (Exception e){
                             e.printStackTrace();
                         }
@@ -59,7 +59,7 @@ public class MsgActivity extends Activity {
                         super.run();
                         if(socket == null){
                             try{
-                                socket = new Socket("192.168.31.122", 8090);
+                                socket = new Socket("192.168.31.57", 8090);
                             }catch (UnknownHostException e){
                                 e.printStackTrace();
                             }catch (IOException e){
