@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlowerViewPager</string>
+    <string name="no_permission">没有访问权限</string>
+</resources>
